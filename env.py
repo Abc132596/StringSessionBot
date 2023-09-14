@@ -7,7 +7,7 @@ API_ID = os.getenv("API_ID", "21543397").strip()
 API_HASH = os.getenv("API_HASH", "87579ffc7be4d3ababdc07cbbc2e8dc4").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6630556790:AAFGarOavZLEzV4hhVMZIfYrDv4VJ-LfJL8").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://abc132596:Mkjadeja1910@cluster0.nmhtowy.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp").strip() # Not a necessary variable anymore but you can add to get stats
-MUST_JOIN = os.getenv("MUST_JOIN", "https://t.me/testing9510")
+MUST_JOIN = os.getenv("MUST_JOIN", "1961169050")
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")

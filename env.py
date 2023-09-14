@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip() # Not a necessary variable anymore but you can add to get stats
+API_ID = os.getenv("API_ID", "21543397").strip()
+API_HASH = os.getenv("API_HASH", "87579ffc7be4d3ababdc07cbbc2e8dc4").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6630556790:AAFGarOavZLEzV4hhVMZIfYrDv4VJ-LfJL8").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://abc132596:Mkjadeja1910@cluster0.nmhtowy.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp").strip() # Not a necessary variable anymore but you can add to get stats
 MUST_JOIN = os.getenv("MUST_JOIN", "")
 
 if not API_ID:
